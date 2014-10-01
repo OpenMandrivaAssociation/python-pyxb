@@ -2,7 +2,7 @@
 
 Name:		python-pyxb
 Version:	1.2.4
-Release:	0.1.gitc494ba3
+Release:	0.2.gitc494ba3
 Source0:	http://downloads.sourceforge.net/project/pyxb/pyxb/%{version}/%{module}-%{version}.tar.gz
 Summary:	Python XML Schema Bindings
 License:	Apache
@@ -19,6 +19,9 @@ XMLSchema.
 %prep
 %setup -q -n %{module}-%{version}
 find . -name .gitignore -exec rm {} \;
+
+# remove "-DEV" from version
+sed -i 's|\(%{version}\)-DEV|\1|' setup.py doc/conf.py pyxb/__init__.py
 
 %build
 python setup.py build
