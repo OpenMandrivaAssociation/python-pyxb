@@ -24,13 +24,12 @@ find . -name .gitignore -exec rm {} \;
 sed -i 's|\(%{version}\)-DEV|\1|' setup.py doc/conf.py pyxb/__init__.py
 
 %build
-python setup.py build
+%{__python} setup.py build
 
 %install
-python setup.py install -O1 --skip-build --root %{buildroot}
+%{__python} setup.py install -O1 --skip-build --root %{buildroot}
  
 %files
 %doc doc/* LICENSE NOTICE README.txt examples/*
 %{python_sitelib}/*
 %{_bindir}/pyx*
-
