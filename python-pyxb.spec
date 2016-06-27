@@ -2,7 +2,7 @@
 
 Name:		python-pyxb
 Version:	1.2.4
-Release:	3
+Release:	5
 Source0:	https://github.com/pabigot/pyxb/archive/%{module}-%{version}.tar.gz
 Summary:	Python XML Schema Bindings
 License:	Apache
