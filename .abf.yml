@@ -1,2 +1,4 @@
-sources:
+removed_sources:
   PyXB-1.2.5.tar.gz: 8b42b26d00f4682902e1282fc1eccfe6974fa9c5
+sources:
+  PyXB-1.2.6.tar.gz: 02635f1ae21a5ae5a598906cf047e33b496f559d

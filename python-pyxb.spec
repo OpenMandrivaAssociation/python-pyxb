@@ -1,7 +1,7 @@
 %define	module	PyXB
 
 Name:		python-pyxb
-Version:	1.2.5
+Version:	1.2.6
 Release:	1
 Source0:	https://github.com/pabigot/pyxb/archive/PyXB-%{version}.tar.gz
 Summary:	Python XML Schema Bindings
