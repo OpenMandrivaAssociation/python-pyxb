@@ -7,7 +7,7 @@ Source0:	https://github.com/pabigot/pyxb/archive/PyXB-%{version}.tar.gz
 Summary:	Python XML Schema Bindings
 License:	Apache
 Group:		Development/Python
-Url:		http://pyxb.sourceforge.net/
+Url:		https://pyxb.sourceforge.net/
 BuildArch:	noarch
 BuildRequires:	python-devel
 
